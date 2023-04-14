@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Machine Learning Model Results](/sample_page)
 <img src="images/heart_risk_csv.png?raw=true"/>
 
 ---
