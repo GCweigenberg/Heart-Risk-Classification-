@@ -1,0 +1,10 @@
+,Model,0_precision,0_recall,0_F1score,1_precision,1_recall,1_F1score,accuracy
+Jesse,log_regression_smote,0.84,0.81,0.83,0.82,0.85,0.84,0.83
+Dylan,log_regression_bootstrap,0.97,0.75,0.85,0.22,0.78,0.35,0.75
+Dylan,log_regression_bootstrap_hyperparams,0.92,0.99,0.96,0.55,0.11,0.18,0.92
+Gabe,log_regression_resampling,0.92,0.99,0.95,0.53,0.1,0.17,0.55
+Gabe,log_regression_resampling_hyperparams,0.97,0.75,0.84,0.23,0.78,0.35,0.76
+Jonathan,random_forest,0.92,0.98,0.95,0.32,0.12,0.17,0.9
+Jonathan,balanced_random_forest,0.97,0.7,0.82,0.2,0.8,0.32,0.75
+Jonathan,balanced_random_forest_resampling,0.93,0.95,0.94,0.29,0.22,0.25,0.59
+Nicolette,random_forest_reatures_engineering,0.92,0.98,0.95,0.34,0.12,0.18,0.9
