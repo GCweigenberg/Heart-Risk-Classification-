@@ -1,7 +1,7 @@
 title: Heart Risk Classification # your name (or website title) here
 logo: "/images/heart_logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  For our capstone project, our team ran various machine learning models in an attempt to predict Heart Disease in 320,000 people. 
   <br><br>
   Second description 
   <br><br>
