@@ -10,8 +10,17 @@ def root():
 
 #Run function below at webpage route above
 @app.route('/main')
-def mapMain():
-    return render_template('mainpage.html')
+def main():
+    return render_template('index.html')
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    # Get input data from the front-end
+    input_data = request.json
+    # Call your model prediction function to get predictions
+    predictions = model_utils.predict(input_data)
+    # Return predictions as JSON response
+    return jsonify(predictions)
 
 #If name is main, run flask
 if __name__ == '__main__':
