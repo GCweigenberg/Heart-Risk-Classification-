@@ -1,7 +1,7 @@
 //---------------- Construct Model Function
 
 // Load the serialized logistic regression model
-const model = ml5.logisticRegression('path/to/logistic_regression_model.pkl', modelLoaded);
+const model = ml5.logisticRegression('../logistic_regression_model.pkl', modelLoaded);
 
 // Callback function to handle when the model is loaded
 function modelLoaded() {
