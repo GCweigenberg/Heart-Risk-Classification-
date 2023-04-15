@@ -8,21 +8,125 @@
     <!-- Our CSS -->
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
     
-    <!-- Include your JavaScript file -->
-    <script src="m15.js"></script>
-    <script src="{{url_for('static', filename='logic.js')}}"></script>
+    <!-- Include the jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>        
 </head>
 
 <body>
 
   <h1>Heart Risk Classification</h1>
   
-  <h3>Background Data</h3>
+  <h3>Input Data</h3>
 
-    <t>Text here</t><br><br>
+    <t>Fill in your information to receive a prediction for your risk of heart disease.</t> <br> <br>
 
-    <t>more text here</t><br>
-    <t>and here </t><br><br>
+    <t>This function is in development.</t> <br> <br>
+
+    <!-- Add custom JavaScript code for making predictions -->
+<script>
+  $(document).ready(function () {
+      // Attach event listener to the form submission
+      $('form').on('submit', function (event) {
+          event.preventDefault(); // Prevent form submission
+
+          // Get input values
+          var question1 = $('#question1').val();
+          var question2 = $('#question2').val();
+          var question3 = $('#question3').val();
+          var question4 = $('#question4').val();
+          var question5 = $('#question5').val();
+          var question6 = $('#question6').val();
+          var question7 = $('#question7').val();
+          var question8 = $('#question8').val();
+          var question9 = $('#question9').val();
+          var question10 = $('#question10').val();
+          var question11 = $('#question11').val();
+          var question12 = $('#question12').val();
+          var question13 = $('#question13').val();
+          var question14 = $('#question14').val();
+          // Extract values from other input fields as needed
+
+          // Prepare data for POST request
+          var data = {
+              'question1': question1,
+              'question2': question2,
+              'question3': question3,
+              'question4': question4,
+              'question5': question5,
+              'question6': question6,
+              'question7': question7,
+              'question8': question8,
+              'question9': question9,
+              'question10': question10,
+              'question11': question11,
+              'question12': question12,
+              'question13': question13,
+              'question14': question14
+              // Add other input field values as needed
+          };
+
+          // Send POST request to Flask server for prediction
+          $.ajax({
+              type: 'POST',
+              url: '/predict',
+              contentType: 'application/json',
+              data: JSON.stringify(data),
+              success: function (response) {
+                  // Update the frontend with the predicted results
+                  var prediction = response.prediction;
+                  $('#prediction').text('Prediction: ' + prediction);
+              },
+              error: function (xhr, status, error) {
+                  console.error('Error:', error);
+              }
+          });
+      });
+  });
+</script>
+
+<br>
+
+<form>
+    <label for="question1">BMI (Estimate):</label>
+    <input type="text" id="question1" name="question1" required> <br> <br>        <!-- Example input field for a question -->
+    <label for="question2">Do you smoke? (y/n)</label>
+    <input type="text" id="question2" name="question2" required> <br> <br>        <!-- Example input field for a question -->
+    <label for="question3">Drink alcohol? (y/n)</label>
+    <input type="text" id="question3" name="question3" required> <br> <br>        <!-- Example input field for a question -->
+    <label for="question4">Have you had a stroke? (y/n)</label>
+    <input type="text" id="question4" name="question4" required> <br> <br>        <!-- Example input field for a question -->
+    <label for="question5">Rate your physical health (0-30):</label>
+    <input type="text" id="question5" name="question5" required> <br> <br>        <!-- Example input field for a question -->
+    <label for="question6">Rate your mental health (0-30):</label>
+    <input type="text" id="question6" name="question6" required> <br> <br>        <!-- Example input field for a question -->
+    <label for="question7">Do you have difficulty walking? (y/n):</label>
+    <input type="text" id="question7" name="question7" required> <br> <br>        <!-- Example input field for a question -->
+    <label for="question8">Sex ('Male' or 'Female'):</label>
+    <input type="text" id="question8" name="question8" required> <br> <br>        <!-- Example input field for a question -->
+    <label for="question9">Age (#):</label>
+    <input type="text" id="question9" name="question9" required> <br> <br>        <!-- Example input field for a question -->
+    <label for="question10">Race (White, Black, Asian, Hispanic, Other):</label>
+    <input type="text" id="question10" name="question10" required> <br> <br>       <!-- Example input field for a question -->
+    <label for="question11">Do you have diabetes? (y/n)</label>
+    <input type="text" id="question11" name="question11" required> <br> <br>       <!-- Example input field for a question -->
+    <label for="question12">Are you physically active? (y/n):</label>
+    <input type="text" id="question12" name="question12" required> <br> <br>       <!-- Example input field for a question -->
+    <label for="question13">Rate your general health (Poor, Fair, Good, Excellent):</label>
+    <input type="text" id="question13" name="question13" required> <br> <br>       <!-- Example input field for a question -->
+    <label for="question14">How many hours do you normally sleep? (#)</label>
+    <input type="text" id="question14" name="question14" required> <br> <br>       <!-- Example input field for a question -->
+    <label for="question14">Do you have asthma? (y/n)</label>
+    <input type="text" id="question15" name="question15" required> <br> <br>       <!-- Example input field for a question -->
+    <label for="question14">Do you have kidney disease? (y/n)</label>
+    <input type="text" id="question16" name="question16" required> <br> <br>       <!-- Example input field for a question -->
+    <label for="question14">Have you had skin cancer? (y/n)</label>
+    <input type="text" id="question17" name="question17" required> <br> <br>       <!-- Example input field for a question -->
+    <button type="submit">Submit</button>
+
+</form>
+
+    <!-- Display the predicted result here -->
+    <p id="prediction"></p>
 
     <b>This project was created by Jonathan Arp, Gabe Cweigenberg, Jesse DeLaCruz, Nicolette Keplinger, and Dylan Kurbel.</b>
 
