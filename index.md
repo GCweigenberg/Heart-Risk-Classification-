@@ -24,15 +24,37 @@
 [Jesse's Results](http://example.com/)
 <img src="images/jesse_model.png?raw=true"/>
 
+
 ---
 
-### Category Name 2
+### Visualizing our findings
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+[Jesse's Results](http://example.com/)
+<img src="images/jesse_model.png?raw=true"/>
+
+
+---
+[Jesse's Results](http://example.com/)
+<img src="images/jesse_model.png?raw=true"/>
+
+
+---
+[Jesse's Results](http://example.com/)
+<img src="images/jesse_model.png?raw=true"/>
+
+
+---
+[Jesse's Results](http://example.com/)
+<img src="images/jesse_model.png?raw=true"/>
+
+
+---
+[Jesse's Results](http://example.com/)
+<img src="images/jesse_model.png?raw=true"/>
+
+
+---
+
 
 ---
 
