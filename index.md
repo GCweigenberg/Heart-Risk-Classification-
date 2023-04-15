@@ -8,8 +8,8 @@
 
 
 ---
-[Jesse's Results](http://example.com/)
-<img src="images/jesse_model.png?raw=true"/>
+[Heart Disease in Women compared to Men](http://example.com/)
+<img src="images/Compare Men vs. Women.png?raw=true"/>
 
 
 ---
@@ -55,30 +55,30 @@
 
 ---
 
-### Visualizing our findings
+### Visualizing our Results
 
 [Accuracy Across Models](http://example.com/)
 <img src="images/Accuracy across Models.png?raw=true"/>
 
 
 ---
-[Jesse's Results](http://example.com/)
-<img src="images/jesse_model.png?raw=true"/>
+[F1-Score](http://example.com/)
+<img src="images/F1 scores.png?raw=true"/>
 
 
 ---
-[Jesse's Results](http://example.com/)
-<img src="images/jesse_model.png?raw=true"/>
+[Precision](http://example.com/)
+<img src="images/Precision.png?raw=true"/>
 
 
 ---
-[Jesse's Results](http://example.com/)
-<img src="images/jesse_model.png?raw=true"/>
+[Recall](http://example.com/)
+<img src="images/Recall.png?raw=true"/>
 
 
 ---
-[Jesse's Results](http://example.com/)
-<img src="images/jesse_model.png?raw=true"/>
+[Precision and Recall comparison](http://example.com/)
+<img src="images/compare among disease states.png?raw=true"/>
 
 
 ---
