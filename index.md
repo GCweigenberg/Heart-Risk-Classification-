@@ -1,6 +1,34 @@
 ## Machine Learning Results
 
 ---
+### Visualizing the Dataset
+
+[Accuracy Across Models](http://example.com/)
+<img src="images/Accuracy across Models.png?raw=true"/>
+
+
+---
+[Jesse's Results](http://example.com/)
+<img src="images/jesse_model.png?raw=true"/>
+
+
+---
+[Jesse's Results](http://example.com/)
+<img src="images/jesse_model.png?raw=true"/>
+
+
+---
+[Jesse's Results](http://example.com/)
+<img src="images/jesse_model.png?raw=true"/>
+
+
+---
+[Jesse's Results](http://example.com/)
+<img src="images/jesse_model.png?raw=true"/>
+
+
+---
+
 
 ### Accuracy, Precision, Recall, F1-Score
 
