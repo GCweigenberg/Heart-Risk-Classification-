@@ -3,8 +3,8 @@
 ---
 ### Visualizing the Dataset
 
-[Accuracy Across Models](http://example.com/)
-<img src="images/Accuracy across Models.png?raw=true"/>
+[Heart Disease BMI](http://example.com/)
+<img src="images/Heart Disease BMI.png?raw=true"/>
 
 
 ---
