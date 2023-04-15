@@ -29,8 +29,8 @@
 
 ### Visualizing our findings
 
-[Jesse's Results](http://example.com/)
-<img src="images/jesse_model.png?raw=true"/>
+[Accuracy Across Models](http://example.com/)
+<img src="images/Accuracy across Models.png?raw=true"/>
 
 
 ---
