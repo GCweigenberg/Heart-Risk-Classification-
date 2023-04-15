@@ -19,6 +19,7 @@
 [Jonathan's Results](http://example.com/)
 <img src="images/jonathan_model.png?raw=true"/>
 
+
 ---
 [Jesse's Results](http://example.com/)
 <img src="images/jesse_model.png?raw=true"/>
