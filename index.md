@@ -30,9 +30,9 @@
 ---
 
 
-### Machine Learning Rsults
+### Machine Learning Results
 
-[Bootstrapped Logistic Regression with Hyper Parameters](/sample_page)
+[Bootstrapped Logistic Regression](/sample_page)
 <img src="images/Dylan_model.png?raw=true"/>
 
 ---
@@ -44,7 +44,7 @@
 <img src="images/gabe_model.png?raw=true"/>
 
 ---
-[Balanced and Resmapled Random Forest](http://example.com/)
+[Balanced and Resampled Random Forest](http://example.com/)
 <img src="images/jonathan_model.png?raw=true"/>
 
 
