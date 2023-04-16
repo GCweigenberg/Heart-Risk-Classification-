@@ -30,26 +30,26 @@
 ---
 
 
-### Accuracy, Precision, Recall, F1-Score
+### Machine Learning Rsults
 
-[Dylan's Results](/sample_page)
+[Bootstrapped Logistic Regression with Hyper Parameters](/sample_page)
 <img src="images/Dylan_model.png?raw=true"/>
 
 ---
-[Nicolette's Results](/pdf/sample_presentation.pdf)
+[Random Forest](/pdf/sample_presentation.pdf)
 <img src="images/nicolette_model.png?raw=true"/>
 
 ---
-[Gabe's Results](http://example.com/)
+[Resampled Logistic Regression](http://example.com/)
 <img src="images/gabe_model.png?raw=true"/>
 
 ---
-[Jonathan's Results](http://example.com/)
+[Balanced and Resmapled Random Forest](http://example.com/)
 <img src="images/jonathan_model.png?raw=true"/>
 
 
 ---
-[Jesse's Results](http://example.com/)
+[Logistic Regression Smote](http://example.com/)
 <img src="images/jesse_model.png?raw=true"/>
 
 
