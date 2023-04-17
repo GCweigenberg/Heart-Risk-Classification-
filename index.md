@@ -1,7 +1,7 @@
 ## Our Process
 
 ---
-### Visualizing the Dataset
+### 1) Visualizing the Dataset
 
 [Heart Disease BMI](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/main/images/ML_resutls/Heart%20Disease%20BMI.png)
 <img src="images/Heart Disease BMI.png?raw=true"/>
@@ -45,7 +45,7 @@
 ---
 
 
-### Machine Learning Results
+### 2) Machine Learning Results
 ---
 
 [Bootstrapped Logistic Regression](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Dylan_model.png)
@@ -74,7 +74,7 @@
 
 ---
 
-### Visualizing our Results
+### 3) Visualizing our Results
 
 [Accuracy Across Models](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Accuracy%20across%20Models.png)
 <img src="images/Accuracy across Models.png?raw=true"/>
