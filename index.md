@@ -72,11 +72,6 @@
 
 
 ---
-[F1-Score](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/F1%20scores.png)
-<img src="images/F1 scores.png?raw=true"/>
-
-
----
 [Precision](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Precision.png)
 <img src="images/Precision.png?raw=true"/>
 
@@ -84,6 +79,11 @@
 ---
 [Recall](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Recall.png)
 <img src="images/Recall.png?raw=true"/>
+
+
+---
+[F1-Score](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/F1%20scores.png)
+<img src="images/F1 scores.png?raw=true"/>
 
 
 ---
