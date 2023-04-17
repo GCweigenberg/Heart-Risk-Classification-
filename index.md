@@ -32,24 +32,24 @@
 
 ### Machine Learning Results
 
-[Bootstrapped Logistic Regression](/sample_page)
+[Bootstrapped Logistic Regression](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Dylan_model.png)
 <img src="images/Dylan_model.png?raw=true"/>
 
 ---
-[Random Forest](/pdf/sample_presentation.pdf)
+[Random Forest](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/nicolette_model.png)
 <img src="images/nicolette_model.png?raw=true"/>
 
 ---
-[Resampled Logistic Regression](http://example.com/)
+[Resampled Logistic Regression](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/gabe_model.png)
 <img src="images/gabe_model.png?raw=true"/>
 
 ---
-[Balanced and Resampled Random Forest](http://example.com/)
+[Balanced and Resampled Random Forest](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/jonathan_model.png)
 <img src="images/jonathan_model.png?raw=true"/>
 
 
 ---
-[Logistic Regression Smote](http://example.com/)
+[Logistic Regression Smote](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/jesse_model.png)
 <img src="images/jesse_model.png?raw=true"/>
 
 
