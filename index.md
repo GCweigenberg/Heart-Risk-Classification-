@@ -23,8 +23,14 @@
 
 
 ---
-[Jesse's Results](http://example.com/)
-<img src="images/jesse_model.png?raw=true"/>
+[Mental and Physical Health Without Heart Disease](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/mental%20and%20physical%20health%20without%20heart%20disease.png)
+<img src="images/mental and physical health without heart disease.png?raw=true"/>
+
+
+---
+[Mental and Physical Health With Heart Disease](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/mental%26physical_health%20with%20heart%20disease.png)
+<img src="images/mental&physical_health with heart disease.png?raw=true"/>
+
 
 
 ---
