@@ -35,8 +35,7 @@
 
 ## Model Information:
 
-### We evaluated multiple ML models and hyper-parameters for the ability to predict positive and negative diagnosis of Heart Disease: 
-
+### We evaluated multiple ML models and hyper-parameters for the ability to predict positive and negative diagnosis of Heart Disease (links to jupyter notebooks exploring each of these can be found on the main paige): 
 * Log Regression + Resampling
 * Log Regression + Resampling + Hyper-parameter tuning
 * Log Regression + Bootstrapping 
