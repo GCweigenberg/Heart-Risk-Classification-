@@ -13,13 +13,13 @@
 
 
 ---
-[Jesse's Results](http://example.com/)
-<img src="images/jesse_model.png?raw=true"/>
+[Age Ranges and Sex Dashboard](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Dashboard%20of%20Age%20Ranges%20%26%20Sex.png)
+<img src="images/Dashboard of Age Ranges & Sex.png?raw=true"/>
 
 
 ---
-[Jesse's Results](http://example.com/)
-<img src="images/jesse_model.png?raw=true"/>
+[WIth and WIthout Heart Disease by Age Range](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Dashboard%20of%20Age%20Ranges%20W_%20%26%20W_out.png)
+<img src="images/Dashboard of Age Ranges W_ & W_out.png?raw=true"/>
 
 
 ---
