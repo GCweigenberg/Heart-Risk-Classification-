@@ -35,13 +35,16 @@
 [Bootstrapped Logistic Regression](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Dylan_model.png)
 <img src="images/Dylan_model.png?raw=true"/>
 
+
 ---
 [Random Forest](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/nicolette_model.png)
 <img src="images/nicolette_model.png?raw=true"/>
 
+
 ---
 [Resampled Logistic Regression](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/gabe_model.png)
 <img src="images/gabe_model.png?raw=true"/>
+
 
 ---
 [Balanced and Resampled Random Forest](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/jonathan_model.png)
