@@ -60,5 +60,9 @@
 To identify the optimal final model, we compared a number of parameters includeing accuracy, precision, recall (aka sensitivity) and F1-Score. 
 
 ### Accuracy 
+We first looked at comparing the accuracy across all models that we evaluated. Most were ≥ 75% accurate and three even over 90%. However, even with high accuracy you can still have low precision (i.e., lots of false positives (FP)) and low sensitivity (lots of false negatives(FN)) which reduces practical utility of the ML model for many use cases. 
 ![](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/main/images/ML_resutls/individual_photos/Accuracy%20across%20Models.png)
-We first looked at comparing the accuracy across all models that we evaluated. Most were ≥ 75% accurate and three even over 90%. However, even with high accuracy you can still have low precision (i.e., lots of False Positives) and low sensitivity (lots of False negatives) which reduces practical utility of the ML model for many use cases. 
+
+### Precision
+For precision, we were looking at each model’s ability for less false positive predictions (calculated by: TP/(TP+FP)). For the disease state 0 (positive for heart disease), precision was consistently high across all models meaning it didn’t have many FP predictions for heart disease. However, for disease state 1 (negative for heart disease), precision was less than 50% for almost all models. This means there were a high number of instances FP’s for most models (predicting that there was no heart disease when there was). Data suggests the best performer for both 0 and 1 disease states were the SMOTE model (third from the right).
+![](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/main/images/ML_resutls/individual_photos/Precision.png)
