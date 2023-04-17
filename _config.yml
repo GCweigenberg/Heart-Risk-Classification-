@@ -2,9 +2,7 @@ title: Heart Disease Risk-Classification By Machine Learning # your name (or web
 logo: "/images/heart_logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   For our capstone project, our team sought to develop a machine learning model that would predict the likelihood of heart disease in subjects
-  based on their personal characteristics. Inherent bias of the selected dataset include uneven feature distribution as the majority of the dataset 
-  was comprised of No Heart Disease (1) individuals. Because of this, multiple models were evaluated to find an optimal ML model 
-  that had high accuracy, precision, and recall. We evaluated multiple ML models and hyper-parameters for the ability to predict positive and negative diagnosis 
+  based on their personal characteristics. We evaluated multiple ML models and hyper-parameters for the ability to predict positive and negative diagnosis 
   of Heart Disease. The final model used in this project is a Logistic Regression model that utilizes SMOTE (Synthetic Minority Over-sampling Technique) 
   to deal with an imbalanced class set.
   <br><br>
