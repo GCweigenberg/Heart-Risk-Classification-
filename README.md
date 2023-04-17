@@ -9,11 +9,10 @@
 ## Installation Instructions:
 
 ### The following Python libraries are required for this project:
-
-#### pandas
-#### scikit-learn
-#### imbalanced-learn
-#### joblib
+* pandas
+* scikit-learn
+* imbalanced-learn
+* joblib
 
 ### You can install these libraries using the following commands in your Python environment:
 
