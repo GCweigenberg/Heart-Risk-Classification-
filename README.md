@@ -16,25 +16,21 @@
 
 ### You can install these libraries using the following commands in your Python environment:
 
-#### '!pip install pandas scikit-learn imbalanced-learn joblib'
+`!pip install pandas scikit-learn imbalanced-learn joblib`
 
 ## Software:
-
-### - VS Code (for running Jupyter Notebook files)
-### - Tableau (for separate visualizations)
+* VS Code (for running Jupyter Notebook files)
+*Tableau (for separate visualizations)
 
 ## Steps to get it up and running:
-
-#### 1) Clone or download the project repository from the link provided in the project details.
-#### 2) Open the Jupyter Notebook files (.ipynb) in VS Code or any other Jupyter Notebook-compatible environment.
-#### 3) Click "Run All" on the Jupyter Notebook files to execute the full program and view the statistics outputs. The code contains full comments to clarify each process.
-#### 4) To view project details and findings, including Tableau visualizations for the dataset and the model training information, visit the link provided in the project details. Users can click on various elements of the page to explore.
-
+1. Clone or download the project repository from the link provided in the project details.
+2. Open the Jupyter Notebook files (.ipynb) in VS Code or any other Jupyter Notebook-compatible environment.
+3. Click "Run All" on the Jupyter Notebook files to execute the full program and view the statistics outputs. The code contains full comments to clarify each process.
+4. To view project details and findings, including Tableau visualizations for the dataset and the model training information, visit the link provided in the project details. Users can click on various elements of the page to explore.
 ### There is no need for data input, as the project includes preprocessed data for model training and testing.
 
 ## Model Information:
-
-### We evaluated multiple ML models and hyper-parameters for the ability to predict positive and negative diagnosis of Heart Disease (links to jupyter notebooks exploring each of these can be found on the main paige): 
+#### We evaluated multiple ML models and hyper-parameters for the ability to predict positive and negative diagnosis of Heart Disease (links to jupyter notebooks exploring each of these can be found on the main paige): 
 * Log Regression + Resampling
 * Log Regression + Resampling + Hyper-parameter tuning
 * Log Regression + Bootstrapping 
@@ -44,7 +40,7 @@
 * Banalced Random Forests
 * Banalced Random Forests + Resampling
 
-### The final model used in this project is a *Logistic Regression model that utilizes SMOTE* (Synthetic Minority Over-sampling Technique) to deal with an imbalanced class set. See results below for supporting information on why this was selected as our optimal model. 
+#### The final model used in this project is a *Logistic Regression model that utilizes SMOTE* (Synthetic Minority Over-sampling Technique) to deal with an imbalanced class set. See results below for supporting information on why this was selected as our optimal model. 
 
 ## Model Purpose:
 
