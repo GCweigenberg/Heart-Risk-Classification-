@@ -30,7 +30,7 @@
 ### There is no need for data input, as the project includes preprocessed data for model training and testing.
 
 ## Model Information:
-#### We evaluated multiple ML models and hyper-parameters for the ability to predict positive and negative diagnosis of Heart Disease (links to jupyter notebooks exploring each of these can be found on the main paige): 
+### We evaluated multiple ML models and hyper-parameters for the ability to predict positive and negative diagnosis of Heart Disease (links to jupyter notebooks exploring each of these can be found on the main paige): 
 * Log Regression + Resampling
 * Log Regression + Resampling + Hyper-parameter tuning
 * Log Regression + Bootstrapping 
