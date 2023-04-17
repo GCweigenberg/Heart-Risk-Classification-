@@ -23,14 +23,23 @@
 
 
 ---
-[Mental and Physical Health Without Heart Disease](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/mental%20and%20physical%20health%20without%20heart%20disease.png)
-<img src="images/mental and physical health without heart disease.png?raw=true"/>
+[Male Mental and Physical Health Without Heart Disease](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/malewithoutheartdisease.png)
+<img src="images/malewithoutheartdisease.png?raw=true"/>
 
 
 ---
-[Mental and Physical Health With Heart Disease](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/mental%26physical_health%20with%20heart%20disease.png)
-<img src="images/mental&physical_health with heart disease.png?raw=true"/>
+[Female Mental and Physical Health Without Heart Disease](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/femalewithoutheartdisease.png)
+<img src="images/femalewithoutheartdisease.png?raw=true"/>
 
+
+---
+[Female Mental and Physical Health With Heart Disease](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/femalewithheartdisease.png)
+<img src="images/femalewithheartdisease.png?raw=true"/>
+
+
+---
+[Male Mental and Physical Health With Heart Disease](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/malewithheartdisease.png)
+<img src="images/malewithheartdisease.png?raw=true"/>
 
 
 ---
