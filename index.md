@@ -31,6 +31,7 @@
 
 
 ### Machine Learning Results
+---
 
 [Bootstrapped Logistic Regression](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Dylan_model.png)
 <img src="images/Dylan_model.png?raw=true"/>
