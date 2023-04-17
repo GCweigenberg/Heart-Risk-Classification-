@@ -43,7 +43,7 @@
 * Log Regression + Bootstrapping + Hyper-parameter tuning
 * Log Regression + SMOTE
 * Random Forests +  Hyper-parameter tuning
-* Banalced Random Forests +
+* Banalced Random Forests
 * Banalced Random Forests + Resampling
 
 ### The final model used in this project is a *Logistic Regression model that utilizes SMOTE* (Synthetic Minority Over-sampling Technique) to deal with an imbalanced class set. See results below for supporting information on why this was selected as our optimal model. 
@@ -57,3 +57,8 @@
 ### The model was trained using a dataset that was preprocessed to select only relevant columns that significantly impact the chance of heart disease. Categorical features were converted to dummy indicators, and SMOTE was used to oversample the minority class. The model was evaluated using various metrics such as accuracy, precision, recall, F1-score, and confusion matrix. The best machine learning model was selected based on the evaluation results. The code for the model training process can be found in the Jupyter Notebook files provided in the project repository.
 
 ## Results 
+To identify the optimal final model, we compared a number of parameters includeing accuracy, precision, recall (aka sensitivity) and F1-Score. 
+
+### Accuracy 
+![](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/main/images/ML_resutls/individual_photos/Accuracy%20across%20Models.png)
+We first looked at comparing the accuracy across all models that we evaluated. Most were ≥ 75% accurate and three even over 90%. However, even with high accuracy you can still have low precision (i.e., lots of False Positives) and low sensitivity (lots of False negatives) which reduces practical utility of the ML model for many use cases. 
