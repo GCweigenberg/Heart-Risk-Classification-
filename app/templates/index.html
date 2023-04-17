@@ -85,43 +85,115 @@
 </script>
 
 <br>
+<form method='post'>
+<h1>Health Questionnaire</h1>
 
-<form>
-    <label for="question1">BMI (Estimate):</label>
-    <input type="text" id="question1" name="question1" required> <br> <br>        <!-- Example input field for a question -->
-    <label for="question2">Do you smoke? (y/n)</label>
-    <input type="text" id="question2" name="question2" required> <br> <br>        <!-- Example input field for a question -->
-    <label for="question3">Drink alcohol? (y/n)</label>
-    <input type="text" id="question3" name="question3" required> <br> <br>        <!-- Example input field for a question -->
-    <label for="question4">Have you had a stroke? (y/n)</label>
-    <input type="text" id="question4" name="question4" required> <br> <br>        <!-- Example input field for a question -->
-    <label for="question5">Rate your physical health (0-30):</label>
-    <input type="text" id="question5" name="question5" required> <br> <br>        <!-- Example input field for a question -->
-    <label for="question6">Rate your mental health (0-30):</label>
-    <input type="text" id="question6" name="question6" required> <br> <br>        <!-- Example input field for a question -->
-    <label for="question7">Do you have difficulty walking? (y/n):</label>
-    <input type="text" id="question7" name="question7" required> <br> <br>        <!-- Example input field for a question -->
-    <label for="question8">Sex ('Male' or 'Female'):</label>
-    <input type="text" id="question8" name="question8" required> <br> <br>        <!-- Example input field for a question -->
-    <label for="question9">Age (#):</label>
-    <input type="text" id="question9" name="question9" required> <br> <br>        <!-- Example input field for a question -->
-    <label for="question10">Race (White, Black, Asian, Hispanic, Other):</label>
-    <input type="text" id="question10" name="question10" required> <br> <br>       <!-- Example input field for a question -->
-    <label for="question11">Do you have diabetes? (y/n)</label>
-    <input type="text" id="question11" name="question11" required> <br> <br>       <!-- Example input field for a question -->
-    <label for="question12">Are you physically active? (y/n):</label>
-    <input type="text" id="question12" name="question12" required> <br> <br>       <!-- Example input field for a question -->
-    <label for="question13">Rate your general health (Poor, Fair, Good, Excellent):</label>
-    <input type="text" id="question13" name="question13" required> <br> <br>       <!-- Example input field for a question -->
-    <label for="question14">How many hours do you normally sleep? (#)</label>
-    <input type="text" id="question14" name="question14" required> <br> <br>       <!-- Example input field for a question -->
-    <label for="question14">Do you have asthma? (y/n)</label>
-    <input type="text" id="question15" name="question15" required> <br> <br>       <!-- Example input field for a question -->
-    <label for="question14">Do you have kidney disease? (y/n)</label>
-    <input type="text" id="question16" name="question16" required> <br> <br>       <!-- Example input field for a question -->
-    <label for="question14">Have you had skin cancer? (y/n)</label>
-    <input type="text" id="question17" name="question17" required> <br> <br>       <!-- Example input field for a question -->
-    <button type="submit">Submit</button>
+<h2>Personal Information</h2>
+<ul>
+  <li>
+    <label for="question8">Sex:</label>
+    <input type="text" id="question8" name="question8" required>
+  </li>
+  <li>
+    <label for="question9">Age:</label>
+    <input type="text" id="question9" name="question9" required>
+  </li>
+  <li>
+    <label for="question10">Race:</label>
+    <input type="text" id="question10" name="question10" required>
+  </li>
+</ul>
+
+<h2>Health Status</h2>
+<table>
+  <tr>
+    <th>Question</th>
+    <th>Answer</th>
+  </tr>
+  <tr>
+    <td>BMI (Estimate)</td>
+    <td>
+      <input type="text" id="question1" name="question1" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Do you smoke?</td>
+    <td>
+      <input type="text" id="question2" name="question2" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Drink alcohol?</td>
+    <td>
+      <input type="text" id="question3" name="question3" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Have you had a stroke?</td>
+    <td>
+      <input type="text" id="question4" name="question4" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Rate your physical health (0-30)</td>
+    <td>
+      <input type="text" id="question5" name="question5" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Rate your mental health (0-30)</td>
+    <td>
+      <input type="text" id="question6" name="question6" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Do you have difficulty walking?</td>
+    <td>
+      <input type="text" id="question7" name="question7" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Do you have diabetes?</td>
+    <td>
+      <input type="text" id="question11" name="question11" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Are you physically active?</td>
+    <td>
+      <input type="text" id="question12" name="question12" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Rate your general health (Poor, Fair, Good, Excellent)</td>
+    <td>
+      <input type="text" id="question13" name="question13" required>
+    </td>
+  </tr>
+  <tr>
+    <td>How many hours do you normally sleep?</td>
+    <td>
+      <input type="text" id="question14" name="question14" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Do you have asthma?</td>
+    <td>
+      <input type="text" id="question15" name="question15" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Do you have kidney disease?</td>
+    <td>
+      <input type="text" id="question16" name="question16" required>
+    </td>
+  </tr>
+  <tr>
+    <td>Have you had skin cancer?</td>
+    <td>
+      <input type="text" id="question17" name="question17" required>
+    </td>
+  </tr>
 
 </form>
 
