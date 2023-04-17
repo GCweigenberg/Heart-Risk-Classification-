@@ -85,10 +85,18 @@
 
 
 ---
+[Precision and Recall comparison](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/compare%20between%20disease%20states.png)
+<img src="images/compare between disease states.png?raw=true"/>
 
 
 ---
+[Precision and Recall scores for subjects with Heart Disease](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/YES%20(0).png)
+<img src="images/YES (0).png?raw=true"/>
 
+
+---
+[Precision and Recall scores for Subjects with Heart Disease](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/NO%20(1).png)
+<img src="images/NO (1).png?raw=true"/>
 
 
 
