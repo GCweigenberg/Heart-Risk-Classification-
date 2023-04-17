@@ -3,12 +3,12 @@
 ---
 ### Visualizing the Dataset
 
-[Heart Disease BMI](http://example.com/)
+[Heart Disease BMI](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/main/images/ML_resutls/Heart%20Disease%20BMI.png)
 <img src="images/Heart Disease BMI.png?raw=true"/>
 
 
 ---
-[Heart Disease in Women compared to Men](http://example.com/)
+[Heart Disease in Women compared to Men](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/main/images/ML_resutls/Compare%20Men%20vs.%20Women.png)
 <img src="images/Compare Men vs. Women.png?raw=true"/>
 
 
