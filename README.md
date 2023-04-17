@@ -35,7 +35,18 @@
 
 ## Model Information:
 
-### The final model used in this project is a Logistic Regression model that utilizes SMOTE (Synthetic Minority Over-sampling Technique) to deal with an imbalanced class set.
+### We evaluated multiple ML models and hyper-parameters for the ability to predict positive and negative diagnosis of Heart Disease: 
+
+* Log Regression + Resampling
+* Log Regression + Resampling + Hyper-parameter tuning
+* Log Regression + Bootstrapping 
+* Log Regression + Bootstrapping + Hyper-parameter tuning
+* Log Regression + SMOTE
+* Random Forests +  Hyper-parameter tuning
+* Banalced Random Forests +
+* Banalced Random Forests + Resampling
+
+### The final model used in this project is a *Logistic Regression model that utilizes SMOTE* (Synthetic Minority Over-sampling Technique) to deal with an imbalanced class set. See results below for supporting information on why this was selected as our optimal model. 
 
 ## Model Purpose:
 
@@ -44,3 +55,5 @@
 ## Model Training:
 
 ### The model was trained using a dataset that was preprocessed to select only relevant columns that significantly impact the chance of heart disease. Categorical features were converted to dummy indicators, and SMOTE was used to oversample the minority class. The model was evaluated using various metrics such as accuracy, precision, recall, F1-score, and confusion matrix. The best machine learning model was selected based on the evaluation results. The code for the model training process can be found in the Jupyter Notebook files provided in the project repository.
+
+## Results 
