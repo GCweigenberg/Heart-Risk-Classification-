@@ -57,27 +57,27 @@
 
 ### Visualizing our Results
 
-[Accuracy Across Models](http://example.com/)
+[Accuracy Across Models](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Accuracy%20across%20Models.png)
 <img src="images/Accuracy across Models.png?raw=true"/>
 
 
 ---
-[F1-Score](http://example.com/)
+[F1-Score](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/F1%20scores.png)
 <img src="images/F1 scores.png?raw=true"/>
 
 
 ---
-[Precision](http://example.com/)
+[Precision](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Precision.png)
 <img src="images/Precision.png?raw=true"/>
 
 
 ---
-[Recall](http://example.com/)
+[Recall](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/Recall.png)
 <img src="images/Recall.png?raw=true"/>
 
 
 ---
-[Precision and Recall comparison](http://example.com/)
+[Precision and Recall comparison](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/gcweig/images/compare%20among%20disease%20states.png)
 <img src="images/compare among disease states.png?raw=true"/>
 
 
