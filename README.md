@@ -52,19 +52,16 @@ Group Members: Jonathan Arp, Michael “Gabe” Cweigenberg, Jesse DeLaCruz, Dyl
 ## Results 
 To identify the optimal final model, we compared a number of parameters includeing accuracy, precision, recall (aka sensitivity) and F1-Score:
 
-### Accuracy 
-We first looked at comparing the accuracy across all models that we evaluated. Most were ≥ 75% accurate and three even over 90%. However, even with high accuracy you can still have low precision (i.e., lots of false positives (FP)) and low sensitivity (lots of false negatives(FN)) which reduces practical utility of the ML model for many use cases. 
+### Accuracy
+Accuracy across models predicting negative diagnosis (0) and positive diagnosis (1)
 ![](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/main/images/ML_resutls/individual_photos/Accuracy%20across%20Models.png)
 
-### Precision
-For precision, we were looking at each model’s ability for less false positive predictions (calculated by: TP/(TP+FP)). For the disease state 0 (positive for heart disease), precision was consistently high across all models meaning it didn’t have many FP predictions for heart disease. However, for disease state 1 (negative for heart disease), precision was less than 50% for almost all models. This means there were a high number of instances FP’s for most models (predicting that there was no heart disease when there was). Data suggests the best performer for both 0 and 1 disease states were the SMOTE model (third from the right).
+### Precision across models predicting negative diagnosis (0) and positive diagnosis (1)
+
 ![](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/main/images/ML_resutls/individual_photos/Precision.png)
 
-### Recall
-When assessing recall (aka sensitivity) we were looking for models with low amounts of FNs. Recall is calculated by FP/ (FP+FN). Since our data set has such a high skew of negative diagnoses, our main focus was on the reduction of False negatives (i.e., recall) to the extent that the dataset allows. You can see in this bar chart, there are only four models that had an increase of recall >75% for both disease states (0 and 1). 
+### Recall across models predicting negative diagnosis (0) and positive diagnosis (1)
 ![](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/main/images/ML_resutls/individual_photos/Recall.png)
 
-### F1-Score
-Due to some confounding results across metrics, we looked at F1 score to select the optimal model, which is the “harmonic means” of both precision and recall. F1 score ranges from 0 to 1, with 0 meaning both precision and recall are low and 1 meaning both precision and recall are 100%. The only clear model that sticks out for having high F1 scores (> 80%) for *BOTH* 0 and 1 disease states is the SMOTE model (Third from right). 
-Given the limitations of our dataset (skewness and limited ability for feature engineering) Future directions can include trying to predict other categories/columns such as race and gender instead of the heart disease.  
+### F1-Scores across models predicting negative diagnosis (0) and positive diagnosis (1)
 ![](https://github.com/GCweigenberg/Heart-Risk-Classification-/blob/main/images/ML_resutls/individual_photos/F1%20scores.png)
