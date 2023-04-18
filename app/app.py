@@ -7,6 +7,9 @@ app = Flask(__name__, template_folder='templates')
 # Load the model
 model = joblib.load('/Users/dylan/Desktop/git/Heart-Risk-Classification-/app/logistic_regression_model.pkl')
 
+# Load the scaler
+scaler = joblib.load('app/scaler.pkl')
+
 @app.route('/') # if someone goes to webpage, i want you to run this function and i want you to give back this response
 def root():
     return render_template('index.html')
