@@ -37,6 +37,8 @@ def predict():
     question13 = input_data.get('question13', '')
     question14 = input_data.get('question14', '')
     question15 = input_data.get('question15', '')
+    question16 = input_data.get('question16', '')
+    question17 = input_data.get('question17', '')
 
     # Extract values from other input fields as needed
 
@@ -57,10 +59,15 @@ def predict():
         'question13': [question13],
         'question14': [question14],
         'question15': [question15],
+        'question16': [question16],
+        'question17': [question17]
         # Add columns for other input fields as needed
     })
     input_df = pd.get_dummies(input_df, drop_first=True)
-    input_scaled = scaler.transform(input_df)
+    input_scaled = scaler.transform(input_df.values)
+    print(input_df)
+
+
 
     # Perform prediction using the loaded model
     prediction = model.predict(input_scaled)
